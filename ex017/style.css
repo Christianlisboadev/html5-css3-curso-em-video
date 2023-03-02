@@ -1,0 +1,19 @@
+@charset "UTF-8";
+h1 {
+    color: brown;
+}
+h2 {
+    color: blue;
+}
+
+.basico {
+    color: rgb(122, 206, 122);
+}
+
+.intermediario {
+    color: rgb(198, 206, 122);
+}
+
+.avancado {
+    color: rgb(206, 122, 122);
+}

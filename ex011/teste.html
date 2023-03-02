@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de imagens e audio</title>
+</head>
+<body>
+    <h1>Imagem</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="teste/smart.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="teste/tablet.jpg" type="image/jpg">
+        <img src="teste/pc.jpg" alt="pc">
+    </picture>
+    <p></p>
+    <audio src="audio/bonfire.mp3" autoplay controls preload="metadata"></audio>
+</body>
+</html>
